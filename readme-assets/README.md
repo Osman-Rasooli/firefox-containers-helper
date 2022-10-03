@@ -36,13 +36,13 @@ In v0.0.25, the ability to sort the currently shown list of containers has been 
 
 **Important**: Sorting results does not actually modify the order of your containers. It just changes the order of the results shown in the extension popup.
 
-![Sort the current view](readme-assets/v0.0.25/sortable.png)
+![Sort the current view](./v0.0.25/sortable.png)
 
 ## v0.0.24 Screenshot
 
 In v0.0.24, the ability to open every filtered container with the current tab's URL was added:
 
-![Override with the current tab's URL](readme-assets/v0.0.24/override_with_current_tab_url.png)
+![Override with the current tab's URL](./v0.0.24/override_with_current_tab_url.png)
 
 ## v0.0.18 Screenshots
 
@@ -52,7 +52,7 @@ In v0.0.18, the features introduced were:
 
 Import containers section in the options page:
 
-![Import containers](readme-assets/v0.0.18/import_containers.png)
+![Import containers](./v0.0.18/import_containers.png)
 
 ## v0.0.16 Screenshots
 
@@ -63,11 +63,11 @@ In v0.0.16, the features introduced were:
 
 Settings section in the options page - dark mode:
 
-![Settings](readme-assets/v0.0.16/sync_local_settings_dark.png)
+![Settings](./v0.0.16/sync_local_settings_dark.png)
 
 Export containers section in the options page (the top of the screenshot is outdated now):
 
-![Export containers](readme-assets/v0.0.16/export_containers.png)
+![Export containers](./v0.0.16/export_containers.png)
 
 ## v0.0.11 Examples
 
@@ -90,15 +90,15 @@ In this example, a few features are showcased:
 * **Multi-select over a range** - Select and open multiple specific tabs using `Ctrl+Shift+Click` (`Cmd+Shift+Click` on Mac)
 * **Container quick-add** - Quickly add a bunch of containers by typing in a name into the search box
 
-![v0.0.11 usage example](readme-assets/v0.0.11/v0.0.11.gif)
+![v0.0.11 usage example](./v0.0.11/v0.0.11.gif)
 
 Additionally, a few screenshots:
 
-![Multi-selection static image](readme-assets/v0.0.11/multi_selection.png)
+![Multi-selection static image](./v0.0.11/multi_selection.png)
 
-![Dark mode for keyboard shortcuts](readme-assets/v0.0.11/keyboard_shortcuts_dark_larger.png)
+![Dark mode for keyboard shortcuts](./v0.0.11/keyboard_shortcuts_dark_larger.png)
 
-![Light mode for keyboard shortcuts](readme-assets/v0.0.11/keyboard_shortcuts_light.png)
+![Light mode for keyboard shortcuts](./v0.0.11/keyboard_shortcuts_light.png)
 
 ## v0.0.10 Examples
 
@@ -125,33 +125,33 @@ In this example of the v0.0.10 release, the following actions are taken on all o
 * `Duplicate` mode is used to duplicate all containers shown.
 * `Delete` mode is used to delete all containers shown.
 
-![v0.0.10 usage example](readme-assets/v0.0.10/example_v0.0.10.gif)
+![v0.0.10 usage example](./v0.0.10/example_v0.0.10.gif)
 
 ### v0.0.10 Screenshots
 
 Here's how the extension looks when you click on it:
 
-![v0.0.10 Main popup](readme-assets/v0.0.10/screenshot_main_v0.0.10.png)
+![v0.0.10 Main popup](./v0.0.10/screenshot_main_v0.0.10.png)
 
 All available modes in v0.0.10:
 
-![v0.0.10 All modes](readme-assets/v0.0.10/screenshot_mode_list_v0.0.10.png)
+![v0.0.10 All modes](./v0.0.10/screenshot_mode_list_v0.0.10.png)
 
 Setting default container URLs by pressing the shift key and enter or clicking a container result, in v0.0.10:
 
-![v0.0.10 Set default URL for multiple containers](readme-assets/v0.0.10/screenshot_mode_url_v0.0.10.png)
+![v0.0.10 Set default URL for multiple containers](./v0.0.10/screenshot_mode_url_v0.0.10.png)
 
 Default URLs applied in v0.0.10:
 
-![v0.0.10 Main popup](readme-assets/v0.0.10/screenshot_main_urls_set_v0.0.10.png)
+![v0.0.10 Main popup](./v0.0.10/screenshot_main_urls_set_v0.0.10.png)
 
 Changing the name of multiple containers at once in v0.0.10:
 
-![v0.0.10 Set name for multiple containers](readme-assets/v0.0.10/screenshot_mode_set_name_v0.0.10.png)
+![v0.0.10 Set name for multiple containers](./v0.0.10/screenshot_mode_set_name_v0.0.10.png)
 
 Using find and replace in container URLs in v0.0.10 - this screen is preceded by two prompts (one for the "find" string, the other for the "replace" string):
 
-![v0.0.10 Find and replace in container URLs](readme-assets/v0.0.10/screenshot_mode_replace_url_v0.0.10.png)
+![v0.0.10 Find and replace in container URLs](./v0.0.10/screenshot_mode_replace_url_v0.0.10.png)
 
 ## v0.0.3 Examples
 
@@ -175,37 +175,37 @@ In this example, the following actions are taken:
 * Opening all containers whose default URL (or name) contains `Mozilla` as pinned tabs (using the `ctrl+shift` keys and clicking)
 * Deleting all containers whose default URL (or name) contains `Mozilla` (using the `shift` key and clicking)
 
-![v0.0.3 usage example](readme-assets/v0.0.3/example_v0.0.3.gif)
+![v0.0.3 usage example](./v0.0.3/example_v0.0.3.gif)
 
 ### v0.0.3 Screenshots
 
 Here's how the extension looks when you click on it:
 
-![v0.0.3 Main popup](readme-assets/v0.0.3/screenshot_main_v0.0.3.png)
+![v0.0.3 Main popup](./v0.0.3/screenshot_main_v0.0.3.png)
 
 This screenshot has the "Set Default URL" mode enabled, and the user presses `Shift+Enter` to set a default user for all shown containers:
 
-![v0.0.3 Bulk set URL](readme-assets/v0.0.3/screenshot_bulk_set_url_v0.0.3.png)
+![v0.0.3 Bulk set URL](./v0.0.3/screenshot_bulk_set_url_v0.0.3.png)
 
 In this screenshot, the Rename mode is enabled, and again, `Shift+Enter` is pressed to rename all 4 shown containers to a name that can be further tweaked on an individual basis later, such as `chat-alias02-discord` or `chat-alias02-slack`:
 
-![v0.0.3 Bulk rename](readme-assets/v0.0.3/screenshot_bulk_rename_v0.0.3.png)
+![v0.0.3 Bulk rename](./v0.0.3/screenshot_bulk_rename_v0.0.3.png)
 
 In this screenshot, the user has switched to "Delete" mode, and then pressed `Shift+Enter` to be prompted to delete all 4 containers:
 
-![v0.0.3 Bulk delete](readme-assets/v0.0.3/screenshot_bulk_delete_v0.0.3.png)
+![v0.0.3 Bulk delete](./v0.0.3/screenshot_bulk_delete_v0.0.3.png)
 
 In this screenshot, the user switched to "Duplicate" mode, and clicked on the Shopping container. This duplicated the container without any prompt. If the `Shift` key is pressed, all containers shown will be duplicated after a confirmation prompt:
 
-![v0.0.3 Duplicating one container](readme-assets/v0.0.3/screenshot_single_duplicate_v0.0.3.png)
+![v0.0.3 Duplicating one container](./v0.0.3/screenshot_single_duplicate_v0.0.3.png)
 
 In this screenshot, the user has switched back to "Rename" mode, searches for containers by the name or default URL of `amazon` (in the screenshot there are two containers that meet this criteria), and renames them to `shopping-amazon-`, in preparation for renaming them individually for specific users, i.e. `shopping-amazon-me` and `shopping-amazon-spouse`, for example.
 
-![v0.0.3 Bulk rename based on URL search](readme-assets/v0.0.3/screenshot_bulk_rename_with_urls_v0.0.3.png)
+![v0.0.3 Bulk rename based on URL search](./v0.0.3/screenshot_bulk_rename_with_urls_v0.0.3.png)
 
 In this screenshot, the user simply pressed `Ctrl+Shift+Enter` to open all 4 shown results as pinned container tabs, all of which are by default set to `https://mozilla.org` (note that this does not affect the multi-account containers extension's URL opening behavior):
 
-![v0.0.3 Bulk pinned-tab opening](readme-assets/v0.0.3/screenshot_bulk_pinned_tab_url_open_v0.0.3.png)
+![v0.0.3 Bulk pinned-tab opening](./v0.0.3/screenshot_bulk_pinned_tab_url_open_v0.0.3.png)
 
 ## v0.0.2 Examples
 
@@ -219,7 +219,7 @@ This is the most basic usage of the extension. Start by using the extension this
 
 After that, the next search is performed for `work`, and since it's the only result that comes up, the `enter` key can be pressed to immediately open that result. Additionally, since the `ctrl` key was held down, the `Work` tab is opened as a pinned tab. *No URLs are associated with these containers yet - keep reading to see examples.*
 
-![Basic usage example showing search and click, and pinning a tab using ctrl+enter](readme-assets/v0.0.2/example01.gif)
+![Basic usage example showing search and click, and pinning a tab using ctrl+enter](./v0.0.2/example01.gif)
 
 In summary:
 
@@ -236,7 +236,7 @@ In this example, the first actions taken are:
 * Setting the default URL for a few tabs by checking the `Set Default URL` checkbox, and clicking on one tab at a time to set the URL of each tab.
 * Demonstrating opening these tabs with their default URLs
 
-![Longer example showing Stay Open and Set Default URL interactions](readme-assets/v0.0.2/example02.gif)
+![Longer example showing Stay Open and Set Default URL interactions](./v0.0.2/example02.gif)
 
 ### v0.0.2 Setting multiple URLs simultaneously
 
@@ -244,16 +244,16 @@ In this example, a query of `test` is performed, and a default URL of `https://d
 
 Then, all 4 results are opened simultaneously by pressing `Shift+Enter`.
 
-![Longer example showing Stay Open and Set Default URL interactions](readme-assets/v0.0.2/example03.gif)
+![Longer example showing Stay Open and Set Default URL interactions](./v0.0.2/example03.gif)
 
 ### v0.0.2 Opening multiple URLs simultaneously
 
 In this example, a query of `duckduckgo` is performed, and since multiple containers have `duckduckgo` contained within their default URL setting, pressing `ctrl+shift+enter` opens all 4 results at each of their own set default URL as pinned tabs.
 
-![Querying part of a URL and pressing ctrl+enter to open all queried URLs in their containers](readme-assets/v0.0.2/example04.gif)
+![Querying part of a URL and pressing ctrl+enter to open all queried URLs in their containers](./v0.0.2/example04.gif)
 
 ### v0.0.2 Bulk deletion of containers
 
 In this example, a query of `test` is performed. The `Delete Mode` is then checked by the user before pressing enter or any other inputs. This mode causes any click or enter keystroke to request deletion of the container (will prompt users before deletion). Next, the user presses `shift+enter`, which triggers bulk deletion of all resulting containers (after being prompted).
 
-![Bulk deletion by doing a search and pressing shift+enter, and confirming the prompt](readme-assets/v0.0.2/example05.gif)
+![Bulk deletion by doing a search and pressing shift+enter, and confirming the prompt](./v0.0.2/example05.gif)

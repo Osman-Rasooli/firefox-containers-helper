@@ -69,7 +69,7 @@ If any of this is confusing, remember the basics:
 * Press `ctrl` and click/enter a result to open as pinned tab(s)
   * Note that entering *Select Mode* will change the behavior of `ctrl+click` (`Cmd+Click` on Mac) to specifically select one container from the list, or multiple if `shift` is also held
 
-For now, this section has been migrated to [](./readme-assets/README.md) as an archive, but screenshots and recordings will be added soon.
+For now, this section has been migrated to [this README](./readme-assets/README.md) as an archive, but screenshots and recordings will be added soon.
 
 ## Tips
 
