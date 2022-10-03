@@ -78,8 +78,8 @@ For now, this section has been migrated to [this README](./readme-assets/README.
 Supports light and dark modes.
 
 <div align="center">
-<img src="readme-assets/v0.1.2/popup-light.png" style="width: 200px;"/>
-<img src="readme-assets/v0.1.2/popup-dark.png" style="width: 200px;"/>
+<img src="readme-assets/v0.1.2/popup-light.png" style="width: 250px;"/>
+<img src="readme-assets/v0.1.2/popup-dark.png" style="width: 250px;"/>
 </div>
 
 ## Tips
