@@ -15,6 +15,7 @@ This readme contains extensive information about the extension and it aims to bo
   - [Who is this intended for?](#who-is-this-intended-for)
   - [Features](#features)
   - [Examples and Screenshots](#examples-and-screenshots)
+    - [Extension Popup Window](#extension-popup-window)
   - [Tips](#tips)
     - [Container naming convention suggestions](#container-naming-convention-suggestions)
   - [FAQ](#faq)
@@ -70,6 +71,16 @@ If any of this is confusing, remember the basics:
   * Note that entering *Select Mode* will change the behavior of `ctrl+click` (`Cmd+Click` on Mac) to specifically select one container from the list, or multiple if `shift` is also held
 
 For now, this section has been migrated to [this README](./readme-assets/README.md) as an archive, but screenshots and recordings will be added soon.
+
+
+### Extension Popup Window
+
+Supports light and dark modes.
+
+<div align="center">
+<img src="readme-assets/v0.1.2/popup-light.png" style="width: 200px;"/>
+<img src="readme-assets/v0.1.2/popup-dark.png" style="width: 200px;"/>
+</div>
 
 ## Tips
 
