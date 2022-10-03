@@ -5,20 +5,21 @@
 .overflow-scroll-vertical {
     overflow-y: auto;
     max-height: 300px;
-    min-height: 300px;
-    height: 300px;
+    /* min-height: 300px; */
+    /* height: 300px; */
 }
 
 .container-list-text {
-    font-size: 0.9rem;
+    font-size: small;
+    /* font-size: 0.9rem; */
 }
 
 .icon {
-    overflow: hidden;
+    /* overflow: hidden; */
     max-height: 18px;
 }
 
-.icon>i {
+/* .icon>i {
     position: relative;
     background-size: 16px 16px;
     width: 16px;
@@ -26,7 +27,7 @@
     overflow: hidden;
     left: calc(16px * -1);
     border-right: 16px solid transparent;
-}
+} */
 
 .loading {
     display: none;
@@ -38,7 +39,8 @@
 }
 
 #container-list {
-    min-height: 174px;
+    min-height: 200px;
+    /* min-height: 174px; */
 }
 
 .mono-16 {

@@ -4,11 +4,15 @@ import {
     CLASSES_CONTAINER_LI_INACTIVE,
     CLASSES_CONTAINER_DIV,
     CLASSES_CONTAINER_LI,
-    CLASSES_CONTAINER_LI_DIV_DESTRUCTIVE,
+    CLASSES_CONTAINER_DIV_DESTRUCTIVE,
+    CLASSES_CONTAINER_LI_EMPTY,
+    CLASSES_CONTAINER_ICON_DIV,
+    CLASSES_CONTAINER_LI_URL_LABEL_INVERTED,
+    CLASSES_CONTAINER_LI_URL_LABEL,
+    CLASSES_CONTAINER_ICON_EMPTY_TEXT,
+    CLASSES_CONTAINER_ICON,
 } from "./classes";
 import {
-    containerListItemUrlLabelInverted,
-    containerListItemUrlLabel,
     MODES,
     CONF,
     UrlMatchTypes,
@@ -41,11 +45,18 @@ export const buildContainerListGroupElement = (): HTMLUListElement => {
  */
 export const buildContainerIcon = (context: browser.contextualIdentities.ContextualIdentity): HTMLDivElement => {
     const iconDiv = document.createElement('div') as HTMLDivElement;
-    iconDiv.className = 'icon';
+    iconDiv.className = CLASSES_CONTAINER_ICON_DIV;
 
     const icon = document.createElement('i') as HTMLElement;
-    icon.style.backgroundImage = `url(${context.iconUrl})`;
-    icon.style.filter = `drop-shadow(${context.colorCode} 16px 0)`;
+    icon.style.webkitMaskSize = 'cover';
+    icon.style.maskSize = 'cover';
+    icon.style.webkitMaskImage = `url(${context.iconUrl})`;
+    icon.style.maskImage = `url(${context.iconUrl})`;
+    icon.style.backgroundColor = context.colorCode;
+    icon.style.width = '16px';
+    icon.style.height = '16px';
+    icon.style.display = 'inline-block';
+    icon.className = CLASSES_CONTAINER_ICON;
 
     addEmptyEventListeners([iconDiv, icon]);
 
@@ -77,7 +88,7 @@ export const buildContainerLabel = async (
         nameLabel.innerText = `${context.name}`;
 
         const urlLabel = document.createElement('span') as HTMLSpanElement;
-        urlLabel.className = containerListItemUrlLabel;
+        urlLabel.className = CLASSES_CONTAINER_LI_URL_LABEL;
         urlLabel.id = `filtered-context-${i}-url-label`;
 
         const urls = await getSetting(CONF.containerDefaultUrls) as ContainerDefaultURL;
@@ -104,7 +115,12 @@ export const buildContainerLabel = async (
             } else {
                 urlLabel.innerText = `${url.substring(0, 40)}`;
             }
-
+        } else {
+            // maybe use this instead if it's ever needed - it just looks
+            // off-center though.
+            // urlLabel.innerHTML = '&nbsp;'
+            urlLabel.innerText = '-'
+            urlLabel.title = 'Opens in a blank container tab. Set a default URL to change this.';
         }
 
         const openCurrentPage = await getSetting(CONF.openCurrentPage) as boolean;
@@ -188,7 +204,7 @@ export const buildContainerListItem = async (
         if (mode === MODES.DELETE || mode === MODES.REFRESH) {
             const div = document.createElement('div') as HTMLDivElement;
 
-            div.className = CLASSES_CONTAINER_LI_DIV_DESTRUCTIVE;
+            div.className = CLASSES_CONTAINER_DIV_DESTRUCTIVE;
             div.id = `filtered-context-${i}-div`;
 
             addEmptyEventListeners([div]);
@@ -227,12 +243,12 @@ export const buildContainerListItem = async (
  */
 export const buildContainerListItemEmpty = (i: number): HTMLLIElement => {
     const li = document.createElement('li') as HTMLLIElement;
-    li.className = "list-group-item d-flex justify-content-space-between align-items-center";
+    li.className = CLASSES_CONTAINER_LI_EMPTY;
 
     const label = buildEmptyContainerLabelElement('No results');
 
     const icon = document.createElement('span');
-    icon.className = 'mono-16';
+    icon.className = CLASSES_CONTAINER_ICON_EMPTY_TEXT;
     icon.innerText = "x";
 
     li.appendChild(icon);
@@ -272,14 +288,14 @@ export const reflectSelected = (selected: SelectedContextIndex) => {
                 li.className = CLASSES_CONTAINER_LI_SELECTED;
             }
             if (urlLabel) {
-                urlLabel.className = containerListItemUrlLabelInverted;
+                urlLabel.className = CLASSES_CONTAINER_LI_URL_LABEL_INVERTED;
             }
         } else {
             if (li) {
                 li.className = CLASSES_CONTAINER_LI_INACTIVE;
             }
             if (urlLabel) {
-                urlLabel.className = containerListItemUrlLabel;
+                urlLabel.className = CLASSES_CONTAINER_LI_URL_LABEL;
             }
         }
     }
